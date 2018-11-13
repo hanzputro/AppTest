@@ -1,0 +1,38 @@
+.installment {
+  position: relative;
+  padding: 20px 0 0 50px;
+  overflow: hidden;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+  &:last-child {
+    border-right: 0;
+  }
+  .icon {
+    position: absolute;
+    top: -18px;
+    right: -10px;
+    width: 70px;
+    opacity: 0.1;
+  }
+  .nominal {
+    color: #169162;
+    .nominal-icon {
+      width: 16px;
+      margin: 0 13px 0 -30px;
+    }
+  }
+  table {
+    tr {
+      td {
+        color: #aaa;
+        &:first-child {
+          padding-left: 0;
+        }
+        &:last-child {
+          text-align: right;
+          font-weight: bold;
+          color: #000;
+        }
+      }
+    }
+  }
+}
