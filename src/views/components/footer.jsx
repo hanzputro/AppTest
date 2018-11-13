@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 class footer extends Component {
   state = {
-    logoFooter: "./images/icons/taralite-footer.png"
+    logoFooter: "/images/icons/taralite-footer.png"
   };
   render() {
     return (

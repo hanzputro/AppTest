@@ -3,9 +3,9 @@ import "../../styles/components/header.scss";
 
 class header extends Component {
   state = {
-    logoTaralite: "./images/logo-taralite-alt.svg",
-    iconFeedback: "./images/icons/feedback.png",
-    iconLogout: "./images/icons/logout.png"
+    logoTaralite: "/images/logo-taralite-alt.svg",
+    iconFeedback: "/images/icons/feedback.png",
+    iconLogout: "/images/icons/logout.png"
   };
   render() {
     return (

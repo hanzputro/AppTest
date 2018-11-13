@@ -6,7 +6,7 @@ import Footer from "../views/components/footer";
 
 class home extends Component {
   state = {
-    iconWarning: "./images/icons/warning.png",
+    iconWarning: "/images/icons/warning.png",
     summary: [
       { id: 1, type: "tempo", value: "10 Apr 2018" },
       { id: 2, type: "denda", value: "Tidak Ada" },
@@ -20,8 +20,8 @@ class home extends Component {
         id: 1,
         title: "TERBAYAR",
         nominal: "Rp 18.157.500",
-        iconNominal: "./images/icons/desktop/small/paid.svg",
-        icon: "./images/icons/desktop/paid.svg",
+        iconNominal: "/images/icons/desktop/small/paid.svg",
+        icon: "/images/icons/desktop/paid.svg",
         detail: [
           { id: 1, type: "Pokok", nominal: "Rp 16.666.666" },
           { id: 2, type: "Bunga", nominal: "Rp 990.832" },
@@ -33,8 +33,8 @@ class home extends Component {
         id: 2,
         title: "TERSISA",
         nominal: "Rp 35.315.000",
-        iconNominal: "./images/icons/desktop/small/due.svg",
-        icon: "./images/icons/desktop/due.svg",
+        iconNominal: "/images/icons/desktop/small/due.svg",
+        icon: "/images/icons/desktop/due.svg",
         detail: [
           { id: 1, type: "Pokok", nominal: "Rp 33.333.332" },
           { id: 2, type: "Bunga", nominal: "Rp 1.981.664" }
@@ -44,8 +44,8 @@ class home extends Component {
         id: 3,
         title: "TOTAL",
         nominal: "Rp 52.972.500",
-        iconNominal: "./images/icons/desktop/small/outstanding.svg",
-        icon: "./images/icons/desktop/outstanding.svg",
+        iconNominal: "/images/icons/desktop/small/outstanding.svg",
+        icon: "/images/icons/desktop/outstanding.svg",
         detail: [
           { id: 1, type: "Pokok", nominal: "Rp 50.000.000" },
           { id: 2, type: "Bunga", nominal: "Rp 2.972.500" }
